@@ -82,3 +82,8 @@ footer{padding:24px 0 18px}
 
 /* Align the visible SVG artwork with the shared left content edge. */
 .logo-img{object-position:left center}
+
+.aboutportrait{width:100%;max-width:480px;justify-self:end;margin:0;border-radius:22px;overflow:hidden;background:#e0e5e7;box-shadow:0 16px 48px #0c1c3410}
+.aboutportrait img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+@media(max-width:900px){.aboutportrait{max-width:440px;justify-self:start}}
+@media(max-width:520px){.aboutportrait{max-width:100%;border-radius:18px}}
