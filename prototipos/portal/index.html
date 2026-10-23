@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>RR. · Desenho da plataforma de clientes</title>
+<link rel="icon" href="../../assets/rr-logo.svg"><link rel="stylesheet" href="portal.css">
+<script defer src="portal.js"></script>
+</head>
+<body>
+<a class="skip" href="#content">Saltar para o conteúdo</a>
+<div class="demo-bar"><strong>DESENHO INTERATIVO</strong><span>Dados fictícios · Sem autenticação ou Supabase · Não introduza dados reais. Alterações apenas nesta sessão.</span></div>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+<a class="brand" href="../../"><img src="../../assets/rr-logo.svg" alt="RR." width="54" height="34"><span>Área de clientes<small>Contabilidade com proximidade.</small></span></a>
+<div class="workspace-label">PLATAFORMAS</div>
+<div class="module-switch"><button id="irs-module" class="selected" type="button">IRS <span>Pessoal</span></button><button id="business-module" type="button">Empresas <span id="business-count">3 empresas</span></button></div>
+<nav id="navigation" aria-label="Área de trabalho"></nav>
+<div class="sidebar-bottom"><div class="advisor-dot">RR</div><div><strong>O seu contabilista</strong><small>Rúben Meirinho Rodrigues</small><button type="button" data-view="chat">Enviar mensagem ↗</button></div></div>
+</aside>
+<div class="main-shell">
+<header class="topbar"><button class="menu-toggle" id="menu-toggle" aria-label="Abrir navegação" aria-expanded="false" aria-controls="sidebar" type="button">☰</button><div class="breadcrumb" id="breadcrumb">Área de clientes / IRS</div><div class="toolbar"><label class="scenario-label">Cenário<select id="scenario"><option value="full">XYZ · IRS + 3 empresas</option><option value="irs">Cliente apenas IRS</option></select></label><div class="role-switch" aria-label="Vista do protótipo"><button type="button" id="role-client" aria-pressed="true">Cliente</button><button type="button" id="role-admin" aria-pressed="false">Gestão</button></div><span class="avatar" id="avatar">AE</span></div></header>
+<div id="notice" class="notice" role="status" hidden></div>
+<main id="content" tabindex="-1"></main>
+<footer class="prototype-footer">RR. · Projeto da plataforma IRS <span>Protótipo sem ligação a serviços reais</span></footer>
+</div>
+</div>
+<dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" type="button" aria-label="Fechar">×</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>
