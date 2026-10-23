@@ -28,3 +28,6 @@ DEPLOY GRÁTIS
 1. Extrair ZIP.
 2. Abrir https://app.netlify.com/drop
 3. Arrastar a pasta rr_mega_website com index.html para Netlify Drop.
+
+ATUALIZAÇÃO: marca RR. sem quadrado; consultoria técnica B2B como foco de tecnologia; secção IRS na homepage; botão Área de clientes em todas as páginas.
+IMPORTANTE: ainda não foram fornecidos URLs reais do portal empresarial e da aplicação IRS. Os botões encaminham para pedidos de acesso pelo formulário de contacto; não existe autenticação ou aplicação IRS incorporada.
