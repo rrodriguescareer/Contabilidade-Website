@@ -8,6 +8,7 @@ Os links do site usam pastas, sem extensão de ficheiro:
 - Internacional: `/internacional/`
 - Contacto: `/contacto/`
 - Privacidade: `/privacidade/`
+- Termos e Condições: `/termos/`
 
 Cada pasta contém o respetivo `index.html`, servido automaticamente pelo alojamento. O nome do ficheiro não aparece na navegação normal. Os caminhos relativos permitem publicar tanto na raiz de um domínio como numa subpasta de GitHub Pages.
 
