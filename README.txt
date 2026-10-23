@@ -1,14 +1,14 @@
 RR — WEBSITE COMERCIAL / SCROLLYTELLING
 
-Abrir index.html num navegador para visualizar.
+Para visualizar com os endereços públicos sem .html, execute python3 -m http.server 8000 nesta pasta e abra o servidor num navegador. Consulte URLS.md.
 
 ESTRUTURA
 - index.html: homepage de promoção dos serviços.
-- contabilidade.html: narrativa scrollytelling com 4 etapas.
-- tecnologia.html: narrativa scrollytelling com 4 etapas.
-- internacional.html: narrativa scrollytelling com 4 etapas.
-- contacto.html: contactos e formulário que prepara email.
-- privacidade.html: texto preliminar a validar antes de publicar.
+- contabilidade/index.html: narrativa scrollytelling com 4 etapas.
+- tecnologia/index.html: narrativa scrollytelling com 4 etapas.
+- internacional/index.html: narrativa scrollytelling com 4 etapas.
+- contacto/index.html: contactos e formulário que prepara email.
+- privacidade/index.html: texto preliminar a validar antes de publicar.
 - assets/style.css e assets/main.js: estilos, animações, parallax e idioma PT/EN.
 
 CARACTERÍSTICAS
