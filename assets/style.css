@@ -46,3 +46,50 @@ footer{background:#08172b;color:#c5d4e8;padding:65px 0 25px}.foot{display:grid;g
 
 /* V4: identity, service-first hierarchy, legible layouts */
 *,*::before,*::after{box-sizing:border-box}html{scroll-padding-top:92px}body{overflow-x:hidden}.shell{width:min(100% - 48px,1520px);max-width:1520px;margin-inline:auto}.nav{gap:14px}.brand{min-width:0;flex-shrink:0}.brand>span{font-size:.78rem!important;white-space:nowrap}.logo-img{width:70px!important;height:47px!important;object-fit:contain}.nav-irs{display:inline-flex;align-items:center;padding:10px 14px;background:#e9f1ff;color:#1357c6;border:1px solid #c8dbfa;border-radius:999px;font-size:.78rem;font-weight:850;white-space:nowrap}.client-login{background:#0a2344!important;color:white!important;border-color:#0a2344!important;font-weight:850}.landing-quicklinks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:46px;position:relative;z-index:2}.landing-quicklinks a{background:#fff;border:1px solid #d7e3f4;border-radius:18px;padding:23px;display:flex;flex-direction:column;gap:10px;box-shadow:0 12px 40px #09233b0a;min-width:0}.landing-quicklinks a>span,.audience-grid article>span{color:#2867f8;font-size:.67rem;font-weight:850;letter-spacing:.12em}.landing-quicklinks strong{font-size:clamp(1rem,1.45vw,1.38rem);color:#0a2344;line-height:1.2}.landing-quicklinks strong b{color:#2867f8}.landing-quicklinks small{color:#62748b;font-size:.78rem;line-height:1.55}.irs-process{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:28px}.irs-process>div{display:flex;flex-direction:column;gap:9px;border-top:2px solid #b9d1f5;padding-top:14px}.irs-process b{color:#2867f8;font-size:.76rem}.irs-process strong{color:#0a2344;font-size:.87rem}.irs-process span{color:#63758e;font-size:.76rem;line-height:1.5}.tech-audience{padding:110px 0;background:#eaf2ff}.tech-audience h2{font-size:clamp(2.3rem,4.3vw,5rem);letter-spacing:-.06em;line-height:1.1;max-width:960px;margin:22px 0 38px}.audience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:32px}.audience-grid article{background:#fff;padding:34px;border:1px solid #d3e2f6;border-radius:20px}.audience-grid h3{font-size:clamp(1.25rem,2vw,1.8rem);letter-spacing:-.04em;margin:22px 0 14px}.audience-grid p{color:#586b84;line-height:1.7}.homehero,.servicehero,.irs-feature{overflow:clip}@media(max-width:1370px){.brand>span{display:none}.links{gap:12px}.navbtn{display:none}}@media(max-width:1080px){.landing-quicklinks{grid-template-columns:1fr}.audience-grid{grid-template-columns:1fr}.irs-process{grid-template-columns:1fr}.nav-irs{padding:9px 11px}}@media(max-width:720px){.shell{width:calc(100% - 32px)}.nav-irs{display:none}.client-login{font-size:.7rem!important;padding:9px 10px!important}.client-login:before{display:none}.logo-img{width:55px!important;height:38px!important}.landing-quicklinks{margin-top:28px}.tech-audience{padding:70px 0}.irs-feature{padding:75px 0}.irs-copy h2{overflow-wrap:normal}}
+
+/* V5 — quieter typography, clearer actions and accessible navigation. */
+:root{--blue:#225ce0;--muted:#52647d;--bg:#f8fafc;--line:#dce5ef}
+.shell{width:min(calc(100% - clamp(36px,8vw,144px)),1360px)}
+h1,h2,h3{letter-spacing:-.055em;text-wrap:balance}
+.hero-title{font-size:clamp(3rem,5.6vw,6.7rem);line-height:1.04;letter-spacing:-.065em}
+h2{font-size:clamp(2.35rem,4.4vw,4.7rem);line-height:1.12}
+.herodesc{font-size:clamp(1.05rem,1.35vw,1.25rem);max-width:620px}
+.homehero,.servicehero{padding-bottom:96px}
+.hero-gridlines{opacity:.45;background-size:88px 88px}
+.top{background:#f8fafcf2;border-bottom-color:#dce5ef80}
+.links a{position:relative;transition:color .2s}
+.links a.current:after{content:'';position:absolute;bottom:-9px;left:0;right:0;height:2px;background:var(--blue);border-radius:2px}
+.btn{min-height:56px;padding-inline:26px;transition:transform .2s,background .2s,box-shadow .2s}
+.btn.solid:hover,.navbtn:hover{background:#184bc0;box-shadow:0 10px 28px #225ce030}
+.btn.outline:hover{background:#e7efff}
+.servicehero.dark .btn.outline:hover{background:#ffffff15}
+.landing-quicklinks a{padding:26px;box-shadow:none;border-radius:16px;transition:border-color .2s,transform .2s,box-shadow .2s}
+.landing-quicklinks a:hover{border-color:#8aaae8;transform:translateY(-4px);box-shadow:0 14px 32px #18345b0a}
+.landing-quicklinks small{font-size:.85rem;line-height:1.65}
+.servicecard{background:#fff;border-radius:20px;min-height:420px}
+.servicecard:hover{border-color:#9ab6eb;transform:translateY(-5px)}
+.cardglyph{background:#edf3ff;border:1px solid #dce7fb;border-radius:18px}
+.servicecard p,.audience-grid p{line-height:1.8}
+.services-overview{background:#fff}
+.sectionhead{margin-bottom:44px}
+.aboutmonogram{border-radius:22px}
+.contactform{border-radius:22px;box-shadow:0 24px 70px #153d6b0c}
+.contactform input,.contactform select,.contactform textarea{background:#fff;transition:border-color .2s,box-shadow .2s}
+.contactform input:focus,.contactform select:focus,.contactform textarea:focus{border-color:var(--blue);box-shadow:0 0 0 4px #225ce010}
+.contactform input:user-invalid,.contactform textarea:user-invalid{border-color:#b43232}
+:where(a,button,input,select,textarea,summary):focus-visible{outline:3px solid #2867f8;outline-offset:5px}
+.skip-link{position:fixed;top:12px;left:16px;z-index:100;transform:translateY(-180%);padding:12px 20px;border-radius:10px;background:var(--navy);color:white;font-weight:700}
+.skip-link:focus{transform:translateY(0)}
+#main-content:focus{outline:none}
+@media(min-width:1251px){.menu{display:none}}
+@media(max-width:1250px){.links a.current:after{display:none}.links{max-height:calc(100svh - 105px);overflow-y:auto}.menu{cursor:pointer}.menu[aria-expanded=true]{background:var(--navy);color:#fff}}
+@media(max-width:900px){.homehero,.servicehero{padding-bottom:60px}.hero-object{height:330px}.contacthero{padding-top:125px}.contacthero .hero-title{font-size:clamp(2.8rem,8vw,5rem)}.contactlinks{margin-top:32px}.sectionhead{margin-bottom:32px}}
+@media(max-width:520px){.shell{width:calc(100% - 36px)}.hero-title{font-size:clamp(2.65rem,10.8vw,3.5rem)}.heroactions{gap:10px;margin-top:26px}.landing-quicklinks a{padding:22px}.homehero{padding-top:112px}.hero-object{height:280px}.trustline{gap:12px;margin-top:26px}.contactform{padding:24px 20px}.contactlinks{font-size:.88rem}.btn{text-align:center}.mini{letter-spacing:.03em}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{animation:none!important;transition:none!important}.step{opacity:1;transform:none}}
+/* Keep the service shortcuts below the hero, in the same content column. */
+.homehero{flex-direction:column;align-items:stretch;min-height:auto}
+.homehero>.homegrid{flex-shrink:0}
+.homehero>.landing-quicklinks{width:min(calc(100% - clamp(36px,8vw,144px)),1360px);margin:48px auto 0}
+.homehero .scrollnote{display:none}
+@media(max-width:1080px) and (min-width:721px){.homehero>.landing-quicklinks{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:520px){.homehero>.landing-quicklinks{width:calc(100% - 36px);margin-top:32px}}
