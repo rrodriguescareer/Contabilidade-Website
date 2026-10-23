@@ -1,21 +1,30 @@
-# Website — Rúben Rodrigues
+RR — WEBSITE COMERCIAL / SCROLLYTELLING
 
-## Pré-visualizar
-Abra `index.html` num navegador moderno. O site é autónomo e não requer instalação.
+Abrir index.html num navegador para visualizar.
 
-## O que inclui
-- Português de Portugal e inglês, com seletor PT / EN.
-- Página inicial com scrollytelling, efeitos parallax subtis e animações progressivas.
-- Secções de formação, serviços, percurso profissional e contacto.
-- Formulário que prepara um email através do programa de email do visitante.
-- Layout adaptável a computador e telemóvel; respeito por preferências de movimento reduzido.
+ESTRUTURA
+- index.html: homepage de promoção dos serviços.
+- contabilidade.html: narrativa scrollytelling com 4 etapas.
+- tecnologia.html: narrativa scrollytelling com 4 etapas.
+- internacional.html: narrativa scrollytelling com 4 etapas.
+- contacto.html: contactos e formulário que prepara email.
+- privacidade.html: texto preliminar a validar antes de publicar.
+- assets/style.css e assets/main.js: estilos, animações, parallax e idioma PT/EN.
 
-## Antes de publicar
-1. Substituir o destino provisório do botão IRS pelo URL definitivo da plataforma de IRS.
-2. Adicionar o URL definitivo da área de cliente e o respetivo botão de acesso no menu.
-3. Configurar envio de formulários no servidor/serviço de formulários, se pretender receber mensagens sem depender do programa de email do visitante.
-4. Rever o texto profissional e a informação académica antes da publicação.
-5. Acrescentar política de privacidade e, se aplicável, gestão de cookies.
-6. Confirmar os requisitos de utilização da designação profissional e a informação legal aplicável.
+CARACTERÍSTICAS
+- Design branco / azul / azul-marinho com margens laterais reduzidas.
+- Páginas de serviços independentes, cada uma com visual sticky, progresso das etapas e animações de scroll.
+- Elementos parallax, esferas animadas, navegação responsiva, barra de progresso.
+- Alternância PT/EN guardada no navegador.
+- Sem bibliotecas JavaScript externas. A fonte Google Fonts é opcional; existe fallback local.
 
-O website não inclui backend, autenticação ou envio automático de formulários.
+PENDENTE PARA PUBLICAÇÃO DEFINITIVA
+- URL do portal de clientes e URL da aplicação IRS: ainda não fornecidos, por isso não foram inventados botões funcionais.
+- O formulário usa mailto, não envia dados para um servidor.
+- Rever texto de privacidade e requisitos RGPD conforme o alojamento e as ferramentas escolhidas.
+- Validar âmbito de todos os serviços e informação profissional.
+
+DEPLOY GRÁTIS
+1. Extrair ZIP.
+2. Abrir https://app.netlify.com/drop
+3. Arrastar a pasta rr_mega_website com index.html para Netlify Drop.
