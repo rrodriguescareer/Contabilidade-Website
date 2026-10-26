@@ -22,6 +22,10 @@
 @media(max-width:380px){.hero-object{height:265px}.hero-object .sphere{width:180px}.hero-object .mini{font-size:.55rem;padding:9px}.hero-title{letter-spacing:-.045em}}
 .servicehero.dark .mini{color:#173254;background:#fff;border-color:#d8e4f4}
 
+/* Anchor destinations start immediately below the fixed navigation. */
+html.home-page{scroll-padding-top:78px}
+@media(max-width:900px){html.home-page{scroll-padding-top:70px}}
+
 /* Reduce outer spacing only for homepage services and IRS. */
 .home-page .services-overview{padding-block:40px}
 .home-page .services-overview .sectionhead{margin-bottom:32px}
