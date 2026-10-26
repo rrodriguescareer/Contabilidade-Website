@@ -22,18 +22,11 @@
 @media(max-width:380px){.hero-object{height:265px}.hero-object .sphere{width:180px}.hero-object .mini{font-size:.55rem;padding:9px}.hero-title{letter-spacing:-.045em}}
 .servicehero.dark .mini{color:#173254;background:#fff;border-color:#d8e4f4}
 
-/* Compact homepage sections and align menu anchors with the fixed header. */
-html.home-page{scroll-padding-top:78px}
-.home-page .services-overview,.home-page .value-section,.home-page .aboutbrief{padding-block:40px}
-.home-page .services-overview .sectionhead,.home-page .value-section .sectionhead{margin-bottom:32px}
-.home-page .irs-feature{padding-block:24px 40px}
-.home-page .irs-copy h2{margin-block:18px}
-.home-page .irs-chips{margin-block:20px}
-.home-page .irs-actions{margin-top:24px}
-.home-page .irs-disclaimer{margin-top:12px}
-.home-page .irs-process{margin-top:22px}
-@media(max-width:900px){html.home-page{scroll-padding-top:70px}}
-@media(max-width:700px){.home-page .services-overview,.home-page .value-section,.home-page .aboutbrief{padding-block:32px}.home-page .irs-feature{padding-block:24px 32px}}
+/* Reduce outer spacing only for homepage services and IRS. */
+.home-page .services-overview{padding-block:40px}
+.home-page .services-overview .sectionhead{margin-bottom:32px}
+.home-page .irs-feature{padding-block:48px 80px}
+@media(max-width:700px){.home-page .services-overview{padding-block:32px}.home-page .irs-feature{padding-block:48px 64px}}
 
 /* The contact hint belongs to the text column, not a separate grid cell. */
 .contactgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,80px)}
