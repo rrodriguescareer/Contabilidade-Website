@@ -93,3 +93,9 @@ h2{font-size:clamp(2.35rem,4.4vw,4.7rem);line-height:1.12}
 .homehero .scrollnote{display:none}
 @media(max-width:1080px) and (min-width:721px){.homehero>.landing-quicklinks{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:520px){.homehero>.landing-quicklinks{width:calc(100% - 36px);margin-top:32px}}
+
+/* Faixa de avisos do escritório, no topo de todas as páginas. */
+.faixa-avisos{display:grid}
+.aviso-site{margin:0;padding:10px 24px;font-size:.84rem;font-weight:600;line-height:1.45;text-align:center;background:#eaf1fc;color:#1b3f7a;border-bottom:1px solid #cfdff5}
+.aviso-site[data-tom=atencao]{background:#fff6e6;color:#7a4b12;border-bottom-color:#f0dcb8}
+.aviso-site[data-tom=critico]{background:#fdecea;color:#8c2823;border-bottom-color:#f3cdc9}
