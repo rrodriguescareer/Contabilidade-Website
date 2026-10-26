@@ -25,8 +25,8 @@
 /* Reduce outer spacing only for homepage services and IRS. */
 .home-page .services-overview{padding-block:40px}
 .home-page .services-overview .sectionhead{margin-bottom:32px}
-.home-page .irs-feature{padding-block:48px 80px}
-@media(max-width:700px){.home-page .services-overview{padding-block:32px}.home-page .irs-feature{padding-block:48px 64px}}
+.home-page .irs-feature{padding-block:32px calc(80px * 2 / 3)}
+@media(max-width:700px){.home-page .services-overview{padding-block:32px}.home-page .irs-feature{padding-block:32px calc(64px * 2 / 3)}}
 
 /* The contact hint belongs to the text column, not a separate grid cell. */
 .contactgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:clamp(32px,5vw,80px)}
